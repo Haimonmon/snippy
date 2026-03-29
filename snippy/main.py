@@ -36,7 +36,7 @@ def seek_checkup(headless: bool = True) -> None:
     )
 
     if result:
-        print(r"[ Snippy ] Sucessfully take snippy to a checkup results are in snippy/data/daily_checkup folder. 🎉")
+        print(r"[ Snippy ] Sucessfully take snippy to a checkup results are in snippy/cache/daily_checkup folder. 🎉")
     else:
         print("[ Snippy ] Snippy checkup did not complete successfully.")
 

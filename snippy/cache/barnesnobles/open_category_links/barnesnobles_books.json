@@ -1,10 +1,10 @@
 {
     "name": "Barnes and Nobles Book Link List",
     "description": "Contains book links scraped of snippy",
-    "date_updated": "2025-10-03",
+    "date_updated": "2025-10-14",
     "main_source": "https://www.barnesandnoble.com/",
-    "total_book_scraped": 128,
-    "total_book_not_scraped": 292,
+    "total_book_scraped": 420,
+    "total_book_not_scraped": 0,
     "total_book_links": 420,
     "books": [
         {
@@ -340,7 +340,7 @@
             "is_scraped": true
         },
         {
-            "book_link": "https://www.barnesandnoble.com/w/the-tragedy-of-true-crime-john-j-lennon/1146806775",
+            "book_link": "https://www.barnesandnoble.com/w/the-tragedy-of-false-crime-john-j-lennon/1146806775",
             "is_scraped": true
         },
         {
@@ -465,7 +465,7 @@
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/a-place-for-all-my-books-by-alex-cutler-and-micheal-mihealsick-smirk-dagger/1147419671",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/hues-and-cues-by-scott-brady-usaopoly/1146366008",
@@ -505,7 +505,7 @@
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/nook-glowlight-4-barnes-noble/1140326110",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/dont-let-the-forest-in-cg-drews/1144294403",
@@ -525,19 +525,19 @@
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/to-sleep-in-a-sea-of-stars-christopher-paolini/1134933976",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/dungeon-crawler-carl-matt-dinniman/1145437169",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/when-the-moon-hits-your-eye-john-scalzi/1145317296",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-murderbot-diaries-vol-1-martha-wells/1146367890",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/children-of-time-adrian-tchaikovsky/1122935179",
@@ -545,1147 +545,1147 @@
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-mercy-of-gods-james-s-a-corey/1144350350",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/an-absolutely-remarkable-thing-hank-green/1127870587",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/twice-mitch-albom/1146840194",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/lessons-from-cats-for-surviving-fascism-stewart-reynolds/1147047648",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/this-american-woman-zarna-garg/1146523648",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/malibu-rising-taylor-jenkins-reid/1137713880",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/atmosphere-taylor-jenkins-reid/1146489330",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/i-am-ozzy-ozzy-osbourne/1100259625",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-heaven-earth-grocery-store-james-mcbride/1142821692",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/harry-potter-and-the-sorcerers-stone-j-k-rowling/1133614639",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/harry-potter-hogwarts-castle-tamagotchi-tamagotchi/1143460542",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-truths-we-hold-young-readers-edition-kamala-harris/1137465428",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/mediocre-monk-grant-lindsley/1141897447",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/fearful-lauren-roberts/1147571507",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/wild-card-elsie-silver/1146984841",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/accomplice-to-the-villain-hannah-nicole-maehrer/1146458535",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/starside-alex-aster/1148270716",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/cozy-corner-coco-wyo/1146794459",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-wild-robot-peter-brown/1122451135",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-dark-window-rachel-gillig/1139653639",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/separation-of-church-and-hate-john-fugelsang/1146419008",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/framed-in-death-j-d-robb/1146657233",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-primal-of-blood-and-bone-jennifer-l-armentrout/1146491693",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/this-inevitable-ruin-matt-dinniman/1147317211",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/rites-of-the-starling-devney-perry/1148334932",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/game-on-navessa-allen/1148120629",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/among-the-burning-flowers-samantha-shannon/1146652058",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-cinnamon-bun-book-store-laurie-gilmore/1144341255",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/nothing-like-the-movies-lynn-painter/1144786603",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/murdle-g-t-karber/1141976523",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/cozy-cuties-coco-wyo/1146712781",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/youre-my-little-baby-boo-nicola-edwards/1143301667",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/billion-dollar-ransom-james-patterson/1147007174",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/red-rising-pierce-brown/1110614785",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/falling-like-leaves-misty-wilson/1146889511",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/fourth-wing-rebecca-yarros/1142297916",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/strange-houses-uketsu/1146276773",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/little-blue-trucks-halloween-alice-schertle/1142100257",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/caught-up-navessa-allen/1146397680",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-nightingale-kristin-hannah/1119169484",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-outsiders-s-e-hinton/1100458329",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/all-the-way-to-the-river-elizabeth-gilbert/1146839076",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/wild-reverence-rebecca-ross/1146860643",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-bakery-dragon-devin-elle-kurtz/1144623577",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-silent-patient-alex-michaelides/1128638857",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/hansel-and-gretel-stephen-king/1146982314",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/right-wing-revolution-charlie-kirk/1144945371",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-book-of-sheen-charlie-sheen/1147670862",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/a-court-of-thorns-and-roses-sarah-j-maas/1120160516",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/two-twisted-crowns-rachel-gillig/1143031728",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-thursday-murder-club-richard-osman/1136398985",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/11-22-63-stephen-king/1108810190",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-very-hungry-caterpillar-eric-carle/1100472822",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/brimstone-callie-hart/1146895617",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/anathema-keri-lake/1146338173",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/tender-is-the-flesh-agustina-bazterrica/1135277372",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/animal-farm-george-orwell/1137597358",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-twilight-saga-deluxe-hardcover-collection-stephenie-meyer/1146969116",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/hour-of-the-pumpkin-queen-megan-shepherd/1147115354",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/to-kill-a-mockingbird-harper-lee/1100151011",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-giver-lois-lowry/1100295882",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/my-friends-fredrik-backman/1146129082",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/youre-my-little-pumpkin-pie-nicola-edwards/1144761370",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-gingerbread-bakery-laurie-gilmore/1146412383",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/poems-prayers-matthew-mcconaughey/1147717698",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/confronting-evil-bill-oreilly/1146923767",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/let-me-be-real-with-you-arshay-cooper/1147267239",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/buckeye-patrick-ryan/1146518591",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/quicksilver-callie-hart/1145866827",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/lights-out-navessa-allen/1148125807",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/sunrise-on-the-reaping-suzanne-collins/1145703863",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/the-hallmarked-man-robert-galbraith/1146743915",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/iron-flame-rebecca-yarros/1143445645",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/atomic-habits-james-clear/1129201155",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-6-tatsuki-fujimoto/1138017678",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-7-tatsuki-fujimoto/1138725526",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-8-tatsuki-fujimoto/1138725527",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-1-tatsuki-fujimoto/1136471850",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-2-tatsuki-fujimoto/1136471849",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-3-tatsuki-fujimoto/1137251906",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-4-tatsuki-fujimoto/1137251912",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-5-tatsuki-fujimoto/1138017661",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-14-tatsuki-fujimoto/1143636511",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-12-tatsuki-fujimoto/1143030051",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-13-tatsuki-fujimoto/1143030119",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-9-tatsuki-fujimoto/1139746833",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-10-tatsuki-fujimoto/1139746880",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-11-tatsuki-fujimoto/1140376804",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-20-vizunknown/1147920148",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-19-tatsuki-fujimoto/1146890047",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-20-tatsuki-fujimoto/1147920148",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-18-tatsuki-fujimoto/1146384996",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-16-tatsuki-fujimoto/1144788207",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-17-tatsuki-fujimoto/1145682692",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-vol-15-tatsuki-fujimoto/1144227486",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/chainsaw-man-box-set-tatsuki-fujimoto/1148357331",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-21-gege-akutami/1143030156",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-22-gege-akutami/1143636481",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-23-gege-akutami/1144227472",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-28-gege-akutami/1146890277",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-24-gege-akutami/1144788193",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-25-gege-akutami/1145682596",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-26-gege-akutami/1146384991",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-27-gege-akutami/1146385061",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-29-gege-akutami/1147557298",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-0-gege-akutami/1137300517",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-11-gege-akutami/1138017706",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-12-gege-akutami/1138725546",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-13-gege-akutami/1138725559",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-14-gege-akutami/1139746882",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-15-gege-akutami/1139746955",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-16-gege-akutami/1140376818",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-17-gege-akutami/1140376871",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-18-gege-akutami/1140976027",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-19-gege-akutami/1141652232",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-20-gege-akutami/1142508785",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-1-gege-akutami/1130959945",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-2-gege-akutami/1132292916",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-3-gege-akutami/1132292908",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-4-gege-akutami/1134080776",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-5-gege-akutami/1134080773",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-6-gege-akutami/1136315754",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-7-gege-akutami/1136315765",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-8-gege-akutami/1137251905",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-9-gege-akutami/1137251897",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/jujutsu-kaisen-vol-10-gege-akutami/1138017677",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1141251278",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-109-eiichiro-oda/1146385078",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-1-eiichiro-oda/1129763095",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1141251279",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1141251280",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-107-eiichiro-oda/1144788304",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-108-eiichiro-oda/1145682654",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1141251281",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-2-eiichiro-oda/1115230773",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1141251282",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-106-eiichiro-oda/1144227445",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1113953614",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1141251283",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-103-eiichiro-oda/1142508789",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-104-eiichiro-oda/1143030184",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-105-eiichiro-oda/1143636448",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1148357226",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1141251285",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1141251284",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-3-eiichiro-oda/1129763096",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-20-eiichiro-oda/1129763112",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-21-eiichiro-oda/1129763113",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-22-eiichiro-oda/1129763114",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-23-eiichiro-oda/1129763115",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-24-eiichiro-oda/1129763118",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-25-eiichiro-oda/1129763119",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-26-eiichiro-oda/1129763116",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-27-eiichiro-oda/1129763117",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-28-eiichiro-oda/1129763120",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-29-eiichiro-oda/1129763137",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-30-eiichiro-oda/1129763135",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-31-eiichiro-oda/1129763122",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-32-eiichiro-oda/1129763140",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-33-eiichiro-oda/1129763127",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1136797943",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-34-eiichiro-oda/1129763123",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-35-eiichiro-oda/1129763125",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-36-eiichiro-oda/1129763129",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-37-eiichiro-oda/1129763133",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-38-eiichiro-oda/1129763134",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-11-eiichiro-oda/1129763104",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-12-eiichiro-oda/1020898678",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-13-eiichiro-oda/1129763105",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-14-eiichiro-oda/1129763106",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-15-eiichiro-oda/1129763107",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-16-eiichiro-oda/1129763108",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-17-eiichiro-oda/1129763109",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-18-eiichiro-oda/1129763110",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-19-eiichiro-oda/1129763111",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-39-eiichiro-oda/1129763138",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-40-eiichiro-oda/1129763139",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-41-eiichiro-oda/1129763124",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-42-eiichiro-oda/1129763136",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-43-eiichiro-oda/1129763131",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-44-eiichiro-oda/1129763130",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-45-eiichiro-oda/1129763126",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-46-eiichiro-oda/1129763121",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-47-eiichiro-oda/1129763132",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-48-eiichiro-oda/1129763128",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-4-eiichiro-oda/1129763097",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-5-eiichiro-oda/1129763098",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-6-eiichiro-oda/1129763099",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-7-eiichiro-oda/1129763100",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-8-eiichiro-oda/1129763101",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-9-eiichiro-oda/1129763102",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-10-eiichiro-oda/1129763103",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-89-eiichiro-oda/1137213747",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-90-eiichiro-oda/1137213979",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-91-eiichiro-oda/1137213963",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-92-eiichiro-oda/1137213905",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-93-eiichiro-oda/1138747661",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-94-eiichiro-oda/1138747662",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-95-eiichiro-oda/1138747663",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-96-eiichiro-oda/1137251908",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-97-eiichiro-oda/1138017731",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-98-eiichiro-oda/1138725609",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-79-eiichiro-oda/1123884322",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-80-eiichiro-oda/1137213931",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-81-eiichiro-oda/1129763189",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-82-eiichiro-oda/1129763190",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-83-eiichiro-oda/1129763194",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-84-eiichiro-oda/1129763196",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-85-eiichiro-oda/1129763197",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-86-eiichiro-oda/1129763199",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-87-eiichiro-oda/1129763200",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-88-eiichiro-oda/1129763203",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-69-eiichiro-oda/1129763167",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-70-eiichiro-oda/1129763169",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-71-eiichiro-oda/1129763172",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-72-eiichiro-oda/1129763174",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-73-eiichiro-oda/1129763175",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-74-eiichiro-oda/1129763176",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-75-eiichiro-oda/1129763179",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-76-eiichiro-oda/1129763181",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-77-eiichiro-oda/1129763184",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-78-eiichiro-oda/1129763185",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-59-eiichiro-oda/1129763155",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-60-eiichiro-oda/1129763156",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-61-eiichiro-oda/1129763158",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-62-eiichiro-oda/1129763157",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-63-eiichiro-oda/1129763159",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-64-eiichiro-oda/1129763160",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-65-eiichiro-oda/1129763161",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-66-eiichiro-oda/1129763162",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-67-eiichiro-oda/1129763165",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-68-eiichiro-oda/1129763168",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-49-eiichiro-oda/1129763148",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-50-eiichiro-oda/1129763147",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-51-eiichiro-oda/1137213562",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-52-eiichiro-oda/1129763150",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-53-eiichiro-oda/1129763145",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-54-eiichiro-oda/1129763146",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-55-eiichiro-oda/1129763151",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-56-eiichiro-oda/1129763152",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-57-eiichiro-oda/1129763153",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-58-eiichiro-oda/1129763154",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-box-set-4-eiichiro-oda/1148357209",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-box-set-2-eiichiro-oda/1148357165",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-box-set-1-eiichiro-oda/1148357241",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-110-eiichiro-oda/1146890273",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-111-vizunknown/1148206963",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-111-eiichiro-oda/1147557324",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1136792916",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1136790418",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vizunknown/1148364251",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-pirate-recipes-sanji/1138872580",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1136791912",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1136797938",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1136793443",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vizunknown/1148364223",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-box-set-3-eiichiro-oda/1148357256",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-eiichiro-oda/1136792374",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-99-eiichiro-oda/1140376847",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-100-eiichiro-oda/1140376880",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-101-eiichiro-oda/1140975987",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/one-piece-vol-102-eiichiro-oda/1141652248",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1137251822",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1138017742",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1138017739",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-ryoji-hirano/1139824875",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1132292956",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1134080787",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1134991622",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1134991621",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1134991620",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1136315758",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1136315749",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1136315763",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1136315751",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1137251907",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1127396426",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1128112739",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1128112709",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1128996877",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1128996875",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1129794903",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1129794893",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1130557283",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1130557286",
-            "is_scraped": false
+            "is_scraped": true
         },
         {
             "book_link": "https://www.barnesandnoble.com/w/demon-slayer-koyoharu-gotouge/1132292967",
-            "is_scraped": false
+            "is_scraped": true
         }
     ]
 }

@@ -96,7 +96,6 @@ class BarnesNobles:
             )
 
             # * MAIN GRAB'S SUBJECT, BOOK LINKS
-
             await context.grant_permissions(
                 ["geolocation"],
                 origin="https://www.barnesandnoble.com"
@@ -169,6 +168,10 @@ class BarnesNobleshelper:
 
         self.test_path = Path("snippy/scrapers/test.txt").read_text(encoding = 'utf-8')
 
+    async def scroll_and_wait(self, page):
+        for _ in range(10):
+            await page.mouse.wheel(0, 1000)  
+            await page.wait_for_timeout(500)
 
     async def split_list(self, lst, n) -> None:
         """ Split list into chunks for parallel tasks. """
@@ -271,6 +274,17 @@ class BarnesNobleshelper:
             await page.goto(goto_link[0]["book_link"])
 
             index = goto_link[1]
+
+
+            # * CHECKS IF NO RESULT PAGE POPS UP
+            await self.scroll_and_wait(page)
+
+            no_result = await page.evaluate("!!document.querySelector('.no-search-msg.mb-m')")
+
+            if no_result:
+                self.parent.open_category_book["books"][index]["is_scraped"] = True
+                self.parent.open_category_book["total_book_not_scraped"] -= 1
+                continue 
 
             shelf_data: Dict = {
                 "book_id": None,
@@ -469,6 +483,7 @@ class BarnesNobleshelper:
        
     async def grab_book_metadata(self, page: Page, link: str, index: int) -> str:
         """ grabs entire book metadata """
+
         _id: str = await self.generate_uuid(index, "BOOK")
 
         metadata = {
@@ -491,7 +506,6 @@ class BarnesNobleshelper:
 
         # * GRABS BOOK TITLE
         metadata["title"] = await page.text_content("h1[itemprop='name']")
-
 
         # * GRABS BOOK DESCRIPTION
         try:
