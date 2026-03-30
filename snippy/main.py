@@ -44,30 +44,31 @@ def seek_checkup(headless: bool = True) -> None:
 
 # * ------------------------------------------------------ OPEN LIBRARY ----------------------------------------------------- * #
 
-def seek_openlibrary(online: bool = True, headless: bool = True, total_books: int = 50, total_subject: int = 200, total_tabs: int = 3) -> List:
-    """ Scrapes open library full range, it will take longer time """
-    if online:
-        result: List = ocean_of_pdf.validate_openlibrary(
-            agent = generate_agent(),
-            headless = headless,
-            total_books = total_books,
-            total_subject = total_subject
-        )
+def seek_openlibrary_scraped_data() -> List:
+    """ Gets the existing data of openlibrary """
+    result: List = file_manager.load_json(file_name="snippy/data/shelf.json")
 
-        if result:
-            print("[ Snippy ] Sucessfully take snippy to scrape Open Library. 🥳🎉")
-        else:
-            print("[ Snippy ] Snippy scraping on Open Library did not complete successfully. 😐✌️")
-    
+    if result:
+        print("[ Snippy ] Sucessfully take snippy scraped Open Library data. 🥳🎉")
+
     else:
+        print("[ Snippy ] Snippy scraped Open Library did not complete. 😐✌️")
+    
+    return result
 
-        result: List = file_manager.load_json(file_name = "snippy/data/shelf.json")
+def seek_openlibrary(headless: bool = True, total_books: int = 50, total_subject: int = 200, total_tabs: int = 3) -> List:
+    """ Scrapes open library online and it will take longer time """
+    result: List = ocean_of_pdf.validate_openlibrary(
+        agent = generate_agent(),
+        headless = headless,
+        total_books = total_books,
+        total_subject = total_subject
+    )
 
-        if result:
-            print("[ Snippy ] Sucessfully take snippy scraped Open Library data. 🥳🎉")
-
-        else:
-            print("[ Snippy ] Snippy scraped Open Library did not complete. 😐✌️")
+    if result:
+        print("[ Snippy ] Sucessfully take snippy to scrape Open Library. 🥳🎉")
+    else:
+        print("[ Snippy ] Snippy scraping on Open Library did not complete successfully. 😐✌️")
 
     return result
 
