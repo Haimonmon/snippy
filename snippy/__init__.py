@@ -1,6 +1,6 @@
 """
 ## Snippy
-Snippy is a book scraper that helps you `scrape`, books online.  
+Snippy is a book scraper that helps you `scrape`, books online.
 
 Snippy is a personal librarian assistant,
 it quietly explores the web, finds books,  

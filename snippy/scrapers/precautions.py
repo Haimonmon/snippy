@@ -24,7 +24,6 @@ class Precaution:
         with Stealth().use_sync(sync_playwright()) as p:
             browser = p.chromium.launch(headless = headless)
 
-            # Apply Snippy's custom user agent
             context = browser.new_context(
                 user_agent = agent["user_agent"], 
                 extra_http_headers = agent["headers"]
