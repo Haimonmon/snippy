@@ -2,7 +2,7 @@
 
 ## What is Snippy?
  
-**Snippy** is a Python library that lets you scrape and collect book metadata from various online book platforms with a simple, unified API. Whether you're building a book price tracker, a personal reading list aggregator, or a dataset for research — Snippy clips the data you need, fast.
+**Snippy** is a Python library that lets you scrape and collect book metadata from various online book platforms with a simple, unified API. Whether you're building a book price tracker, a personal reading list aggregator, or a dataset for research Snippy clips the data you need, fast.
 
 ## Supported Platforms
  
