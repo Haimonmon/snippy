@@ -20,7 +20,6 @@ import snippy
 # )
 
 
-snippy.seek_barnesnobles_book(
-    link = "cache",
-    headless = False
+snippy.reset_openlibrary(
+    include_chache = True
 )
