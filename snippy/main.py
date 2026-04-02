@@ -72,15 +72,22 @@ def seek_openlibrary(headless: bool = True, total_books: int = 50, total_subject
 
     return result
 
-def seek_openlibrary_book_list(headless: bool = True, total_books: int = 50, total_subject: int = 200, total_tabs: int = 1) -> List:
+def seek_openlibrary_links(headless: bool = True, total_books_limit: int = 50, total_subjects_limit: int = 200, total_tabs: int = 1) -> List:
     """ Scrape open library book list page range or area """
-    result: List = open_library.validate_openlibrary_category_links(
+    result: List = open_library.scrape_links(
         agent = generate_agent(),
         headless = headless,
-        total_books = total_books,
-        total_subject = total_subject,
+        total_book_limit = total_books_limit,
+        total_subject_limit = total_subjects_limit,
         total_tabs = total_tabs
     )
+
+    if result:
+        print("[ Snippy ] Sucessfully take snippy to scrape Open Library Links. 🥳🎉")
+    else:
+        print("[ Snippy ] Snippy scraping on Open Library Links did not complete successfully. 😐✌️")
+    
+    return result
 
 def seek_openlibrary_book(link: str | List[str], online: bool = True) -> Dict | List:
     """ Scrape open library book page range or area """
