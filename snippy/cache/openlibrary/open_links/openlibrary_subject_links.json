@@ -1,0 +1,8 @@
+{
+    "name": "Open Library Book Subjects Link List",
+    "description": "Contains book links scraped of snippy",
+    "date_updated": "",
+    "main_source": "https://openlibrary.org/subject/",
+    "total_book_links": 0,
+    "books": []
+}

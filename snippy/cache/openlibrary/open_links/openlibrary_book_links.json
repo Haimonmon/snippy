@@ -1,0 +1,8 @@
+{
+    "name": "Open Library Active Book List",
+    "description": "Contains active cached library book links that contains alot of results when open",
+    "date_updated": "",
+    "main_source": "https://openlibrary.org/",
+    "total_active_book_links": 0,
+    "book_links": []
+}
