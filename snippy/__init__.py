@@ -10,10 +10,10 @@ and brings them back to your digital shelf.
 ` Package By: 🧙‍♂️ Haimonmon `
 """
 
-from .main import seek_checkup, seek_openlibrary, seek_openlibrary_book_list, seek_openlibrary_book, seek_barnesnobles, seek_barnesnobles_book_list, seek_barnesnobles_book
+from .main import seek_checkup, seek_openlibrary, seek_openlibrary_book_list, seek_openlibrary_book, seek_barnesnobles, seek_barnesnobles_book_list, seek_barnesnobles_book, reset_openlibrary
 
 __all__ = [
     "seek_checkup", 
-    "seek_openlibrary", "seek_openlibrary_book_list", "seek_openlibrary_book",
+    "seek_openlibrary", "seek_openlibrary_book_list", "seek_openlibrary_book", "reset_openlibrary",
     "seek_barnesnobles", "seek_barnesnobles_book_list", "seek_barnesnobles_book"
 ]
