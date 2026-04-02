@@ -10,7 +10,7 @@ from .file import FileManager
 file_manager = FileManager()
 
 precaution = PrecautionController(file_manager)
-ocean_of_pdf = OpenLibraryController(file_manager)
+open_library = OpenLibraryController(file_manager)
 barnes_and_nobles = BarnesNoblesController(file_manager)
 
 
@@ -58,7 +58,7 @@ def seek_openlibrary_scraped_data() -> List:
 
 def seek_openlibrary(headless: bool = True, total_books: int = 50, total_subject: int = 200, total_tabs: int = 3) -> List:
     """ Scrapes open library online and it will take longer time """
-    result: List = ocean_of_pdf.validate_openlibrary(
+    result: List = open_library.validate_openlibrary(
         agent = generate_agent(),
         headless = headless,
         total_books = total_books,
@@ -72,16 +72,23 @@ def seek_openlibrary(headless: bool = True, total_books: int = 50, total_subject
 
     return result
 
-
-def seek_openlibrary_book_list(link: str | List[str], online: bool = True) -> List:
+def seek_openlibrary_book_list(headless: bool = True, total_books: int = 50, total_subject: int = 200, total_tabs: int = 1) -> List:
     """ Scrape open library book list page range or area """
-    pass
-
+    result: List = open_library.validate_openlibrary_category_links(
+        agent = generate_agent(),
+        headless = headless,
+        total_books = total_books,
+        total_subject = total_subject,
+        total_tabs = total_tabs
+    )
 
 def seek_openlibrary_book(link: str | List[str], online: bool = True) -> Dict | List:
     """ Scrape open library book page range or area """
     pass
 
+def reset_openlibrary(include_chache: bool = False) -> None:
+    """ Scraped data will be all gone, optionally if you want to include also the cached once too"""
+    open_library.reset_data(include_chache)
 # * ------------------------------------------------------ ------------ ----------------------------------------------------- * #
 
 
