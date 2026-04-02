@@ -20,6 +20,13 @@ import snippy
 # )
 
 
-snippy.reset_openlibrary(
-    include_chache = True
+# snippy.reset_openlibrary(
+#     include_chache = True
+# )
+
+snippy.seek_openlibrary_links(
+    headless = False,
+    total_books_limit = 20,
+    total_subjects_limit = 200,
+    total_tabs = 1
 )
