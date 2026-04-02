@@ -29,8 +29,8 @@ OPEN_SUBJECT_LINKS_FIELD: Final[Dict] = {
     "description": "Contains book links scraped of snippy",
     "date_updated": "",
     "main_source": "https://openlibrary.org/subject/",
-    "total_book_links": 0,
-    "books": []
+    "total_subject_links": 0,
+    "subject_links": []
 }
 
 SHELF_AUTHOR_FIELD: Final[Dict] = {
@@ -94,10 +94,10 @@ class OpenLibraryController:
     #     if "user_agent" not in agent or "headers" not in agent:
     #         raise KeyError("[ Snippy ] Agent dictionary must include both 'user_agent' and 'headers' keys.")
         
-    #     # if self.file_manager.is_file_exist() and self.file_manager.is_file_exist(open_category) and self.file_manager.is_file_exist(open_category_book):
-    #     #     block_list: Dict = self.file_manager.load_json(closed_category)
-    #     #     open_list: Dict = self.file_manager.load_json(open_category)
-    #     #     open_book_list: Dict = self.file_manager.load_json(open_category_book)
+    #     if self.file_manager.is_file_exist() and self.file_manager.is_file_exist(open_category) and self.file_manager.is_file_exist(open_category_book):
+    #         block_list: Dict = self.file_manager.load_json(closed_category)
+    #         open_list: Dict = self.file_manager.load_json(open_category)
+    #         open_book_list: Dict = self.file_manager.load_json(open_category_book)
 
     #     self.target.setup(block_list, open_list, open_book_list, book_limit = total_books, subject_limit = total_subject)
 
@@ -106,7 +106,7 @@ class OpenLibraryController:
     #     return existing_genre_data
 
 
-    def validate_openlibrary_category_links(self, agent: Dict[str, str | Dict[str, str]], headless: bool = True, total_books: int = 50, total_subject: int = 200, total_tabs: int = 1) -> None:
+    def scrape_links(self, agent: Dict[str, str | Dict[str, str]], headless: bool = True, total_book_limit: int = 50, total_subject_limit: int = 200, total_tabs: int = 1) -> None:
         if not isinstance(headless, bool):
             raise ValueError("[ Snippy ] Headless must be a boolean")
 
@@ -115,6 +115,28 @@ class OpenLibraryController:
 
         if "user_agent" not in agent or "headers" not in agent:
             raise KeyError("[ Snippy ] Agent dictionary must include both 'user_agent' and 'headers' keys.")
+        
+        if self.file_manager.is_file_exist(CLOSED_BOOK_PATH):
+            blocked_links: Dict = self.file_manager.load_json(CLOSED_BOOK_PATH)
+        
+        if self.file_manager.is_file_exist(OPEN_BOOK_PATH):
+            book_links: Dict = self.file_manager.load_json(OPEN_BOOK_PATH)
+        
+        if self.file_manager.is_file_exist(OPEN_SUBJECT_PATH):
+            subject_links: Dict = self.file_manager.load_json(OPEN_SUBJECT_PATH)
+        
+        self.target.setup(
+            blocked_links,
+            book_links,
+            subject_links,
+            total_book_limit,
+            total_subject_limit,
+            total_tabs
+        )
+
+        scraped_data: Dict = asyncio.run(self.target.scrape_cache(agent, headless))
+
+        return scraped_data
 
     def reset_data(self, include_chache: bool = False) -> None:
         """ Resets All Data Including Cache datas """
