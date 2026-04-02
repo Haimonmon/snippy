@@ -1,3 +1,8 @@
 {
-    
+    "name": "Barnes and Nobles Book List",
+    "description": "Contais book meta datas",
+    "date_updated": "",
+    "main_source": "https://openlibrary.org/",
+    "total_books": 0,
+    "books": []
 }
