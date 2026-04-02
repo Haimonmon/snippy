@@ -23,25 +23,41 @@ class OpenLibrary:
 
         self.test_path = Path("snippy/scrapers/test.txt").read_text(encoding = 'utf-8')
 
-        self.closed_category: Dict = None
-        self.open_category: Dict = None
-        self.open_category_book: Dict = None
+        self.blocked_links: Dict = None
+        self.book_links: Dict = None
+        self.subject_links: Dict = None
         
-        self.subject_limit: int = 200
-        self.book_limit: int = 30
+        self.subject_limit: int = 0
+        self.book_limit: int = 0
 
         self.tabs = 3
 
-
-    def setup(self, block_list: Dict, open_list: Dict, open_book_list, book_limit: int = 50, subject_limit: int = 50) -> List:
+    def setup(self, block_links: Dict, book_links: Dict, subject_links, book_limit: int = 50, subject_limit: int = 50, tabs: int = 1) -> List:
         """ Setup class attrbiutes """
-        self.closed_category = block_list
-        self.open_category = open_list
-        self.open_category_book = open_book_list
+        self.book_links = book_links
+        self.blocked_links = block_links
+        self.subject_links = subject_links
 
-        self.subject_limit = subject_limit
         self.book_limit = book_limit
+        self.subject_limit = subject_limit
 
+        self.tabs = tabs
+
+    async def scrape_cache(self, agent: Dict, headless: bool) -> Dict:
+        async with Stealth().use_async(async_playwright()) as p:
+            browser = await p.chromium.launch(headless=headless)
+
+            context = await browser.new_context(
+                user_agent=agent["user_agent"],
+                extra_http_headers=agent["headers"]
+            )
+
+            book_links: List = await self.scrape_links(browser_context = context)
+
+            await context.close()
+            await browser.close()
+
+            return book_links
 
     async def scrape(self, agent: Dict[str, str | Dict[str, str]], headless: bool) -> Dict:
         """ Scrape books online on Open Library Website """
@@ -69,7 +85,7 @@ class OpenLibrary:
     async def scrape_links(self, browser_context: BrowserContext) -> List:
         """ Scrape ocean of pdf's genre """
         # * Scrape only subject page of openlibrary
-        if len(self.open_category["subjects"]) == 0:
+        if len(self.subject_links["subject_links"]) == 0:
 
             # * GRABS SUBJECT LINKS AS A STARTER
             page = await browser_context.new_page()
@@ -77,13 +93,13 @@ class OpenLibrary:
             page.close()
 
         # * GRABS SUBJECT'S BOOK LINKS
-        subject_links = [s["subject_link"] for s in self.open_category["subjects"][:self.tabs]]
+        subject_links = [s["subject_link"] for s in self.subject_links["subject_links"][:self.tabs]]
 
         tasks = [self.helper.grab_book_links(await browser_context.new_page(), goto_link=link) for link in subject_links]
 
         await asyncio.gather(*tasks)
 
-        return self.open_category_book["books"]
+        return self.book_links["books"]
         
 
     async def scrape_book_data(self, book_links: List, browser_context: BrowserContext) -> None:
@@ -189,7 +205,7 @@ class OpenLibraryHelper:
 
     async def grab_book_links(self, page: Page, goto_link: str = None, max_clicks: int = 10) -> None:
         """ Scrape book links for caching """
-        if self.parent.open_category_book["total_book_not_scraped"] >= self.parent.book_limit:
+        if self.parent.open_category_book["total_active_book_links"] >= self.parent.book_limit:
             print("[ Snippy ] Book Link Limit Reached. ")
             return
 
